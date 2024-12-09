@@ -1,4 +1,3 @@
-import Image from "next/image";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
@@ -8,13 +7,6 @@ export default function Home() {
       <div className="relative bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="text-center">
-            <Image 
-              src="/logo.png" 
-              alt="Baparkir Logo" 
-              width={200} 
-              height={200} 
-              className="mx-auto mb-8"
-            />
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-8">
               Revolusi
               <span className="text-yellow-500"> Manajemen Parkir </span>
