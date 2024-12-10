@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -15,7 +15,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   icons: {
-    icon: '/logo.png',
+    icon: [
+      { url: '/logo.png', sizes: 'any' },
+      { url: '/favicon.ico', sizes: 'any' }
+    ],
     shortcut: '/logo.png',
     apple: '/logo.png',
   },
@@ -32,7 +35,6 @@ export const metadata: Metadata = {
     description: "Revolusi Parkir untuk Kota Cerdas",
     images: ["/logo.png"],
   },
-  
   openGraph: {
     type: "website",
     url: "https://baparkir.com",
@@ -49,7 +51,6 @@ export const metadata: Metadata = {
     ],
   },
   applicationName: "Baparkir",
-  themeColor: "#ffffff",
   robots: {
     index: true,
     follow: true,
@@ -61,6 +62,10 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({

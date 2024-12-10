@@ -33,6 +33,23 @@ export default function Home() {
         </div>
       </div>
 
+      {/* About Us Section */}
+      <div className="bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Tentang Kami</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-lg text-gray-600 mb-4">
+                Baparkir adalah solusi sistem manajemen parkir untuk pemerintah dan swasta. Manajemen parkir menjadi mudah dengan memanfaatkan platform web.
+              </p>
+              <p className="text-lg text-gray-600">
+                Dengan teknologi modern dan interface yang intuitif, kami membantu mengoptimalkan pengelolaan area parkir, meningkatkan efisiensi operasional, dan memberikan pengalaman parkir yang lebih baik untuk semua pengguna.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Features Section */}
       <div id="features" className="py-16 bg-gray-100 text-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
