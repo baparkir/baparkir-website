@@ -33,7 +33,6 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
-          NEXT_PUBLIC_BASE_PATH: /baparkir-website
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
