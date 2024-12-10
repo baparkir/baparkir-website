@@ -7,6 +7,9 @@ export default function Home() {
       <div className="relative bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="text-center">
+            <div className="text-center mb-6">
+              <img className="inline-block" style={{ width: 120 }}  src="/logo2.png" />
+            </div>
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-8">
               Revolusi
               <span className="text-yellow-500"> Manajemen Parkir </span>
